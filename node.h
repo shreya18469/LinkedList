@@ -9,10 +9,10 @@ class Node{
  public:
   Node(Student* newStu);
   ~Node();
-  void setStudent(Student* newStu);
-  char* getStudent();
-  void setNext(Node* newnext);
-  Node* getNext();
+  void setStudent(Student* newStu); //set node to student
+  char* getStudent();//return student found in node
+  void setNext(Node* newnext);//set next node
+  Node* getNext();//return next node
  private:
   Student* value;
   Node* next;
