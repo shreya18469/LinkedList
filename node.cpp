@@ -2,7 +2,7 @@
 #include "student.h"
 
 Node::Node(Student *newStu) {
-  value = newStudent;
+  value = newStu;
   next = NULL;
 }
 
@@ -12,7 +12,7 @@ Node::~Node() {
 }
 
 void Node::setStudent(Student *newStu) {
-  value = newStudent;
+  value = newStu;
 }
 
 char* Node::getStudent() {
