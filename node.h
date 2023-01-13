@@ -7,9 +7,9 @@ using namespace std;
 
 class Node{
  public:
-  Node(Student *newStu);
+  Node(Student* newStu);
   ~Node();
-  void setStudent(Student *newStu);
+  void setStudent(Student* newStu);
   char* getStudent();
   void setNext(Node* newnext);
   Node* getNext();
