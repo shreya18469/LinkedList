@@ -20,13 +20,13 @@ int main() {
   
   Node* head =  new Node(stu1);
   head->setStudent(stu1);
-  cout << "On first: ";
+  cout << "List: ";
   cout << head->getStudent() << endl;
 
   Node* current = head;
   current->setNext(new Node(stu2));
   current->getNext()->setStudent(stu2);
-  cout << "On second: ";
-  cout << head->getNext()->getStudent() << endl;
+  cout << "List: ";
+  cout << head->getStudent() << "," << head->getNext()->getStudent() << endl;
 
 }
