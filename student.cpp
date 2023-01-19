@@ -1,5 +1,6 @@
 #include "student.h"
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 Student::Student(char* neww){
