@@ -1,4 +1,6 @@
 #include "node.h"
+#include <iostream>
+#include <cstring>
 #include "student.h"
 
 Node::Node(Student* newStu) {
